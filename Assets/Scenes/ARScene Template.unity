@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495742041}
   - component: {fileID: 495742040}
+  - component: {fileID: 495742042}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -169,6 +170,23 @@ Transform:
   - {fileID: 1540060172}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &495742042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495742039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.ARFoundation::UnityEngine.XR.ARFoundation.ARPlaneManager
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PlanePrefab: {fileID: 6686048615755121239, guid: a947c34e7777a674ebdc1625475cd2b0, type: 3}
+  m_DetectionMode: -1
 --- !u!1 &506309552
 GameObject:
   m_ObjectHideFlags: 0
